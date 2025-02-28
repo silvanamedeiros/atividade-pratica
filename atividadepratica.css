@@ -1,0 +1,51 @@
+header {
+    padding: 25px;
+    background-color:  #e8373e;
+    text-align: center;
+    font-size: xx-large;
+    gap: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  header h1 {
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      
+  }
+
+
+  .apresentação {
+    background-image: url(imagens/restaurant-237060_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 180px;
+  }
+
+  .apresentação p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.295);
+    padding: 20px;
+  }
+
+
+
+
+    .introdução {
+
+        padding: 150px;
+        background-color: rgb(148, 180, 165);
+
+    }
+
+    .introdução p {
+        font-size: 30px;
+
+    }
+
+    .final {
+        padding: 150px;
+        background-image: ;
+    }
+
