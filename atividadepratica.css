@@ -1,51 +1,95 @@
 header {
-    padding: 25px;
-    background-color:  #e8373e;
-    text-align: center;
-    font-size: xx-large;
-    gap: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  header h1 {
-    color: whitesmoke;
-    font-size: xx-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-      
-  }
+  padding: 25px;
+  background-color: #e8373e;
+  font-size: 5opx;
+  gap: 30px;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+ header p {
+  padding: 30px;
+  color: white;
+  display: flex;
+  justify-content: left;
+ }
+
+header h1 {
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header i {
+  color: white;
+  text-align: start;
+  font-size: 40px;
+}
 
 
-  .apresentação {
-    background-image: url(imagens/restaurant-237060_1280.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 180px;
-  }
+.apresentação {
+  background-image: url(imagens/restaurant-237060_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 180px;
+}
 
-  .apresentação p {
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    background-color: rgba(128, 128, 128, 0.295);
-    padding: 20px;
-  }
-
-
+.apresentação p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.295);
+  padding: 20px;
+}
 
 
-    .introdução {
+.introdução i {
+  font-size: 30px;
+  color: white;
+  
+  
 
-        padding: 150px;
-        background-color: rgb(148, 180, 165);
+}
 
-    }
+.introdução {
+  text-align: center;
+  padding: 150px;
+  background-color: rgb(124, 241, 144);
 
-    .introdução p {
-        font-size: 30px;
+}
 
-    }
+.introdução p {
+  font-size: 30px;
 
-    .final {
-        padding: 150px;
-        background-image: ;
-    }
 
+}
+
+.introdução image {
+  color: black;
+}
+
+.final {
+  background-image: url(imagens/dining-table-2401813_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 180px;
+  /* text-align: center; */
+  display: flex;
+  /*usado para tornar flex e depois centralizar.*/
+  justify-content: center;
+  /*usado para centralizar.*/
+}
+
+.final button {
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(250, 235, 215, 0.473);
+  color: black
+}
+
+footer {
+  background-color: #e8373e;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+}
