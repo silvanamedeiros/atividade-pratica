@@ -6,7 +6,7 @@ header {
   display: flex;
   justify-content: center;align-items: center;
 }
- header p {
+ header li {
   padding: 30px;
   color: white;
   display: flex;
