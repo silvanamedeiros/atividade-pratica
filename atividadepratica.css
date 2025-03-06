@@ -25,6 +25,17 @@ header i {
   font-size: 40px;
 }
 
+.sub {
+  padding: 25px;
+  background-color: #e8373e;
+  font-size: 5opx;
+  gap: 30px;
+  display: flex;
+  justify-content: center;align-items: center;
+  color: white;
+
+}
+
 
 .apresentação {
   background-image: url(imagens/restaurant-237060_1280.jpg);
