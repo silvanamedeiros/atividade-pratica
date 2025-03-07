@@ -39,6 +39,7 @@ header i {
 
 .apresentação {
   background-image: url(imagens/restaurant-237060_1280.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   padding: 180px;
@@ -80,7 +81,6 @@ header i {
 
 .final {
   background-image: url(imagens/dining-table-2401813_1280.jpg);
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   padding: 180px;
